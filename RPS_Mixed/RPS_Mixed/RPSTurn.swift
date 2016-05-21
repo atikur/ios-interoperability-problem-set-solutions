@@ -8,9 +8,12 @@
 
 import Cocoa
 
-@objc enum Move: NSInteger {
-    case Rock, Paper, Scissors, Invalid
-}
+//@objc enum Move: NSInteger, ErrorType {
+//    case Rock = 10
+//    case Paper = 11
+//    case Scissors = 12
+//    case Invalid = 13
+//}
 
 class RPSTurn: NSObject {
     

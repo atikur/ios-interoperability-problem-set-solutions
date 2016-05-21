@@ -8,6 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSInteger, Move) {
+    Rock,
+    Paper,
+    Scissors,
+    Invalid
+};
+
+@class RPSTurn;
+
 @interface RPSGame : NSObject
 
 @property (nonatomic) RPSTurn *firstTurn;
